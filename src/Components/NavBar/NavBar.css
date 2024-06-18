@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navmain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.line {
+  width: 30px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 130px;
+}
+
+.form-control {
+  width: 400px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+}
+
+.micro {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.dot {
+  width: 30px;
+  height: 30px;
+}
+
+.sign {
+  width: 30px;
+  height: 30px;
+}
+
+.signinbtn {
+  border-radius: 25px;
+  align-content: center;
+  padding: 5px;
+}
+
+.btn-default {
+  border-radius: 25px;
+}
+
+.speakerbtn {
+  border-radius: 25px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
