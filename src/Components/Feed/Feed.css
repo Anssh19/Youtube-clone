@@ -1,0 +1,46 @@
+/* Basic styling for the feed container */
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Align cards with space around them */
+    padding: 20px; /* Add some padding */
+    /* margin-left: 250px; Ensure it does not overlap with the sidebar */
+  }
+  
+  /* Basic styling for the card elements */
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 40px); /* Responsive width */
+    box-sizing: border-box;
+    transition: transform 0.2s; /* Animation for hover effect */
+  }
+  
+  .card img {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .card h3 {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card p {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Hover effect for the card */
+  }
+  

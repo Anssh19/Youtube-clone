@@ -1,12 +1,15 @@
 .mainsidebar {
   background: #fff;
-  width: 15%;
+  width: 95%;
   height: 100vh;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   padding-left: 2%;
-  padding-top: 80px;
+  padding-top: 20px;
+  
 }
+
+
 
 .shorcut-links img {
   width: 20px;
@@ -17,7 +20,60 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  margin-top: 10px;
   width: fit-content;
   flex-wrap: wrap;
   cursor: pointer;
+}
+
+.unlinks{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: fit-content;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.signin img{
+  margin: 0px;
+  padding: 1px;
+}
+
+.signin{
+  margin: 10px;
+}
+
+.explore{
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+
+.YP p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.small-sidebar{
+  width: 5%;
+}
+
+.small-sidebar .explore{
+  display: none;
+}
+
+.small-sidebar .YP p{
+  display: none;
+}
+
+.small-sidebar .unlinks{
+  display: none;
+}
+
+.small-sidebar .br{
+  display: none;
+}
+
+.small-sidebar .links{
+  margin-bottom: 35px;
 }

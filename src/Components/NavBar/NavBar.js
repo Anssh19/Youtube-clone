@@ -7,11 +7,11 @@ import dots from "./../../Assests/dots.png";
 import sign from "./../../Assests/sign.png";
 import search from "./../../Assests/search.png"
 
-const NavBar = () => {
+const NavBar = ({setsidebar}) => {
   return (
     <nav className="navmain">
       <div className="lines">
-        <img src={lines} alt="logo" className="line" />
+        <img src={lines} onClick={()=>setsidebar(prev=>prev===false?true:false)} alt="logo" className="line" />
         <img src={logo} alt="" className="logo" />
       </div>
 
