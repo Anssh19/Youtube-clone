@@ -1,0 +1,146 @@
+.playvideo {
+  flex-basis: 69%;
+}
+
+.playvideo video {
+  width: 100%;
+  border-radius: 14px;
+}
+.playvideo h3 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.videoinfo {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  font-size: 14px;
+  color: 5a5a5a;
+}
+
+.videoinfo img {
+  width: 34px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.videoinfo span {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.playvideo hr {
+  border: 0;
+  height: 1px;
+  background-color: antiquewhite;
+  margin: 10px 0;
+}
+
+.youtuber {
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.youtuber div {
+  flex: 1;
+  line-height: 18px;
+}
+
+.youtuber img {
+  width: 34px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.youtuber div p {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
+
+.youtuber div span {
+  font-size: medium;
+  color: black;
+}
+.youtuber button {
+  background: red;
+  color: black;
+  padding: 8px 30px;
+  border: 0px;
+  outline: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.videodescription {
+  padding-left: 45px;
+  margin: 15px 0;
+}
+
+.videodescription p {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.videodescription h4 {
+  font-size: 14px;
+  color: black;
+  margin-top: 15px;
+}
+
+.comments{
+      display: flex;
+      align-items: flex-start;
+      margin: 20px 0;
+}
+
+.comments img{
+    width: 34px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comments h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.comments h3 span {
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    margin-left: 8px;
+}
+
+.comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+
+}
+
+.comment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 3px;
+    margin-left: 2px;
+}
+
+.comment-action span{
+    margin-right: 20px;
+    color: rgb(148, 163, 177);
+}
