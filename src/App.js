@@ -1,23 +1,30 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Header from "./components/Header";
+import Feed from "./components/Feed";
+import SearchResult from "./components/SearchResult";
+import VideoDetails from "./components/VideoDetails";
+import { AppContext } from "./context/contextApi";
 
-import React, { useState } from'react';
-import NavBar from './Components/NavBar/NavBar';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Components/Pages/Home/Home';
-import Video from './Components/Pages/Video/Video'
-
-function App() {
-
-  const[sidebar,setsidebar] = useState(true)
-  return (
-    <div>
-      <NavBar setsidebar={setsidebar}/>
-      <Routes>
-        <Route path='/' element={<Home sidebar={sidebar}/>}></Route>
-        <Route path='/video/:categoryId/:videoId' element={<Video/>}/>
-      </Routes>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <AppContext>
+            <BrowserRouter>
+                <div className="flex flex-col h-full">
+                    <Header />
+                    <Routes>
+                        <Route path="/" exact element={<Feed />} />
+                        <Route
+                            path="/searchResult/:searchQuery"
+                            element={<SearchResult />}
+                        />
+                        <Route path="/video/:id" element={<VideoDetails />} />
+                    </Routes>
+                </div>
+            </BrowserRouter>
+        </AppContext>
+    );
+};
 
 export default App;
